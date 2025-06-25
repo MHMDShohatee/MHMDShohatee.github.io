@@ -1,1 +1,247 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    <script src="js/simple.js"></script>
+</head>
+
+<body>
+    <header class = "navbar-header">
+        <nav class = "navbar">
+            <ul class="nav-slider">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=hideSidebar()><a href="#about-section">About Me</a></li>
+                <li onclick=hideSidebar()><a href="#education-section">Education</a></li>
+                <li onclick=hideSidebar()><a href="#experience-section">Experience</a></li>
+                <li onclick=hideSidebar()><a href="#technicalskills-section">Technical Skills</a></li>
+                <li onclick=hideSidebar()><a href="#certifications-section">Certifications</a></li>
+                <li onclick=hideSidebar()><a href="#academic-section">Academic Projects</a></li>
+            </ul>
+            <ul class="navbar-default">
+                <li class="hideMobile"><a href="#about-section">About Me</a></li>
+                <li class="hideMobile"><a href="#education-section">Education</a></li>
+                <li class="hideMobile"><a href="#experience-section">Experience</a></li>
+                <li class="hideMobile"><a href="#technicalskills-section">Technical Skills</a></li>
+                <li class="hideMobile"><a href="#certifications-section">Certifications</a></li>
+                <li class="hideMobile"><a href="#academic-section">Academic Projects</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href ="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Start of Bio Section -->
+        <section class ="bio-section">
+            <div class="bio-imgbox">
+                <img src="images/gradpic.jpg" alt="Picture of Mohamed Shohatee">
+            </div>
+            <div class ="bio-info">
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i><a href="" target="_blank" rel="noopener noreferrer">m.shohatee8@gmail.com</a></li>
+                    <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/msl18/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                    <li><i class="fa-brands fa-github"></i><a href="https://github.com/MHMDShohatee">Github</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- End of Bio Section -->
+
+        <!-- Start of About Section -->
+        <section id="about-section" class="section">
+            <header class = "header">About me</header>
+            <div class="about-info">
+                <p>
+                Recent college graduate with a foundation in software development, 
+                and a growing passion for cybersecurity. 
+                Eager to contribute to an experienced team while expanding my knowledge and 
+                skills in the cybersecurity field. Known for being a quick learner, 
+                team-oriented, and highly adaptable in fast-paced environments.
+                </p>
+            </div>
+        </section>
+        <!-- End of About Section -->
+
+        <!-- Start of Education Section -->
+        <section id="education-section" class="section">
+            <header class = "header">Education</header>
+            <div class = "title">
+                <strong>New York City College of Technology</strong>
+                <em class="em">Brooklyn, NY</em>
+            </div>
+            <div class="title">
+                <div class="sub-title">B.Tech in Computer Systems Technology</div>
+                <em class="em">01/2025</em>
+            </div>
+        </section>
+        <!-- End of Education Section -->
+
+        <!-- Start of Experience -->
+        <section id="experience-section" class="section">
+        <header class = "header">Experience</header>
+        <div class="exproj">
+            <div class="title">
+                <strong>American Manual Therapy</strong>
+                <em>Brooklyn, NY</em>
+            </div>
+            <div class="title">
+                <div class="sub-title">Internship</div>
+                <em>06/2024 - 11/2024</em>
+            </div>
+            <div class="exp-info">
+                <ul>
+                    <li>Increased digital pressence by setting up google business profile</li>
+                    <li>Updated website with issues such as outdated locations and video loading issues</li>
+                    <li>Collaborated with owner and team to see what interests are in a website and develop a website to their interests</li>
+                    <li>Developed a website using HTML, CSS and JS</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="academic-infobox">
+            <div class="title">
+                <strong>New York City College of Technology</strong>
+                <em>Brooklyn, NY</em>
+            </div>
+            <div class="title">
+                <div class="sub-title">Software Development .NET Framework</div>
+                <em>09/2022 - 12/2022</em>
+            </div>
+            <div class="academic-info">
+                <ul>
+                    <li>Collaborated in a team of two to design, develop and deploy a 
+                        software application for a car rental company, 
+                        meeting specific business requirements</li>
+                    <li>Used Microsoft SQL Server Management Studio for backend 
+                        development and used Microsoft Visual Studio for C# frontend coding</li>
+                    <li>Built application to account for server storage twenty years ahead</li>
+                </ul>
+            </div>
+        </div>
+        
+        </section>
+        <!-- End of Experience -->
+
+        <!-- Start of Technical Skills Section -->
+        <section id="technicalskills-section" class="section">
+            <header class="header">Technical Skill</header>
+            <div class="techskills">
+                <div class = "skill-row">
+                    <strong>Tools: </strong>
+                    Nessus, NMAP
+                </div>
+                <div class = "skill-row">
+                    <strong>Operating Systems: </strong>
+                    Windows 7/10/11, Kali Linux, Mac OS
+                </div>
+
+                <div class = "skill-row">
+                    <strong>Languages: </strong>
+                    HTML, CSS, JS, C++, C#, Assembly, Python, Java, SQL
+                </div>
+
+                <div class = "skill-row">
+                    <strong>Softwares: </strong>
+                    Wireshark, Metasploit, PuTTY, Microsoft Office Suite, Virtual Box
+                </div>
+
+                <div class = "skill-row">
+                    <strong>Hardwares: </strong>
+                    Software Installation, Computer Assembly
+                </div>
+
+                <div class = "skill-row">
+                    <strong>IDEs: </strong>
+                    IntelliJ, Visual Studio, NetBeans, Eclipse, Android Studio, PyCharm
+                </div>
+
+                <div class = "skill-row">
+                    <strong>Databases: </strong>
+                    Microsoft SQL Server
+                </div>
+
+                <div class = "skill-row">
+                    <strong>Other: </strong>
+                    Microsoft Azure
+                </div>
+            </div>
+        </section>
+        <!-- End of Technical Skills Section -->
+
+        <!-- Start of Certification Section -->
+        <section id="certifications-section"class="section">
+            <header class="header">Certifications</header>
+            <div class="certi-box">
+                <div class="title-sec">
+                    <div class = "title">
+                        <strong>Information Security Basics - Texas A&M Engineering Extension Service</strong>
+                        <em>02/21/2020</em>
+                    </div>
+                    <div class = "title">
+                        <strong>Network Assurance - Texas A&M Engineering Extension Service</strong>
+                        <em>05/18/2022</em>
+                    </div>
+                    <div class = "title">
+                        <strong>Google IT Support Professional - Coursea, online</strong>
+                        <em>08/06/2023</em>
+                    </div>
+                    <div class = "title">
+                        <strong>CompTIA A+</strong>
+                        <em>In Progress...</em>
+                    </div>
+                </div>
+                <div class="cert-imgbox">
+                    <img src="images/bachelors.jpg" alt="Image of Bachelors Degree"> 
+                </div>
+            </div>
+        </section>
+        <!-- End of Certification Section -->
+
+        <!-- Start of Academic Projects -->
+        <section id="academic-section"class="section">
+            <header class = "header">Academic Projects</header>
+            <div class="academic-infobox">
+                <div class="title">
+                    <strong>New York City College of Technology</strong>
+                    <em>Brooklyn, NY</em>
+                </div>
+                <div class="title">
+                    <div class="sub-title">Software Development .NET Framework</div>
+                    <em>09/2022 - 12/2022</em>
+                </div>
+                <div class="academic-info">
+                    <ul>
+                        <li>Collaborated in a team of two to design, develop and deploy a 
+                            software application for a car rental company, 
+                            meeting specific business requirements</li>
+                        <li>Used Microsoft SQL Server Management Studio for backend 
+                            development and used Microsoft Visual Studio for C# frontend coding</li>
+                        <li>Built application to account for server storage twenty years ahead</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End of Academic Projects-->
+    </main>
+
+    <footer>
+        <div class="contact">
+            <ul>
+                <li>Email: <a href="">m.shohatee8@gmail.com</a></li>
+                <li>Phone: (347)776-0171</li>
+            </ul>
+            <ul>
+                <li><a href=""target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                <li><a href="https://github.com/MHMDShohatee" target="_blank" rel="noopener noreferrer">Github</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
