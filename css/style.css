@@ -1,4 +1,3 @@
-
 body
 {
     display: flex;
@@ -148,8 +147,11 @@ main
  
 .bio-info ul li a
 {
+    display: block;
     color: white;
     text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .bio-info ul li a:hover
@@ -325,6 +327,27 @@ main
     color: rgb(130, 255, 119);
 }
 
+
+.grid3 ul
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.grid3 ul li
+{
+    background-color: rgb(31, 31, 31);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    border: solid 1px rgb(75, 75, 75);
+}
 
 footer
 {

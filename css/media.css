@@ -1,4 +1,4 @@
-@media screen and (max-width: 873px) {
+@media screen and (max-width: 955px) {
     .section
     {
         margin-left: auto;
@@ -115,6 +115,13 @@
     .cert-imgbox
     {
         box-sizing: border-box;
+    }
+
+    .grid3 ul
+    {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 10px;
     }
 
 }

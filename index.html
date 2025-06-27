@@ -15,13 +15,14 @@
     <header class = "navbar-header">
         <nav class = "navbar">
             <ul class="nav-slider">
-                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                 <li onclick=hideSidebar()><a href="#about-section">About Me</a></li>
                 <li onclick=hideSidebar()><a href="#education-section">Education</a></li>
                 <li onclick=hideSidebar()><a href="#experience-section">Experience</a></li>
                 <li onclick=hideSidebar()><a href="#technicalskills-section">Technical Skills</a></li>
                 <li onclick=hideSidebar()><a href="#certifications-section">Certifications</a></li>
                 <li onclick=hideSidebar()><a href="#academic-section">Academic Projects</a></li>
+                <li onclick=hideSidebar()><a href="#courseworks-section">Courseworks</a></li>
             </ul>
             <ul class="navbar-default">
                 <li class="hideMobile"><a href="#about-section">About Me</a></li>
@@ -30,7 +31,8 @@
                 <li class="hideMobile"><a href="#technicalskills-section">Technical Skills</a></li>
                 <li class="hideMobile"><a href="#certifications-section">Certifications</a></li>
                 <li class="hideMobile"><a href="#academic-section">Academic Projects</a></li>
-                <li class="menu-button" onclick=showSidebar()><a href ="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                <li class="hideMobile"><a href="#courseworks-section">Courseworks</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href ="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
         </nav>
     </header>
@@ -42,9 +44,9 @@
             </div>
             <div class ="bio-info">
                 <ul>
-                    <li><i class="fa-solid fa-envelope"></i><a href="" target="_blank" rel="noopener noreferrer">m.shohatee8@gmail.com</a></li>
-                    <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/msl18/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                    <li><i class="fa-brands fa-github"></i><a href="https://github.com/MHMDShohatee">Github</a></li>
+                    <li><a><i class="fa-solid fa-envelope"></i>m.shohatee8@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/msl18/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+                    <li><a href="https://github.com/MHMDShohatee" target="_blank"><i class="fa-brands fa-github"></i>Github</a></li>
                 </ul>
             </div>
         </section>
@@ -93,10 +95,10 @@
             </div>
             <div class="exp-info">
                 <ul>
-                    <li>Increased digital pressence by setting up google business profile</li>
-                    <li>Updated website with issues such as outdated locations and video loading issues</li>
-                    <li>Collaborated with owner and team to see what interests are in a website and develop a website to their interests</li>
-                    <li>Developed a website using HTML, CSS and JS</li>
+                    <li>Assisted in developing a website using HTML, CSS, and JavaScript</li>
+                    <li>Collaborated with the team to see what their interests in a website are, and developed the website to their interests</li>
+                    <li>Update website with issues such as updated business locations and video loading issues</li>
+                    <li>Increased digital presence by setting up Google Business Profile</li>
                 </ul>
             </div>
         </div>
@@ -105,11 +107,11 @@
 
         <div class="academic-infobox">
             <div class="title">
-                <strong>New York City College of Technology</strong>
+                <strong>EZ Rental</strong>
                 <em>Brooklyn, NY</em>
             </div>
             <div class="title">
-                <div class="sub-title">Software Development .NET Framework</div>
+                <div class="sub-title">(Class Project)</div>
                 <em>09/2022 - 12/2022</em>
             </div>
             <div class="academic-info">
@@ -119,7 +121,8 @@
                         meeting specific business requirements</li>
                     <li>Used Microsoft SQL Server Management Studio for backend 
                         development and used Microsoft Visual Studio for C# frontend coding</li>
-                    <li>Built application to account for server storage twenty years ahead</li>
+                    <li>Set variable sizes to a specific amount to account for server storage twenty years ahead</li>
+                    <li>Technology:  C#, SQL Server, Visual Studio</li>
                 </ul>
             </div>
         </div>
@@ -129,20 +132,22 @@
 
         <!-- Start of Technical Skills Section -->
         <section id="technicalskills-section" class="section">
-            <header class="header">Technical Skill</header>
+            <header class="header">Technical Skills</header>
             <div class="techskills">
-                <div class = "skill-row">
-                    <strong>Tools: </strong>
-                    Nessus, NMAP
-                </div>
-                <div class = "skill-row">
-                    <strong>Operating Systems: </strong>
-                    Windows 7/10/11, Kali Linux, Mac OS
-                </div>
 
                 <div class = "skill-row">
                     <strong>Languages: </strong>
-                    HTML, CSS, JS, C++, C#, Assembly, Python, Java, SQL
+                    HTML, CSS, JavaScript, C++, Assembly, Python, Java, SQL, C#, JavaFX, Dart, React.js, XML
+                </div>
+                
+                <div class = "skill-row">
+                    <strong>Operating Systems: </strong>
+                    Kali Linux, Windows 7/10/11, Mac OS
+                </div>
+
+                <div class = "skill-row">
+                    <strong>Tools: </strong>
+                    Nessus, NMAP, IDA, x64dbg, ReClass
                 </div>
 
                 <div class = "skill-row">
@@ -151,24 +156,15 @@
                 </div>
 
                 <div class = "skill-row">
-                    <strong>Hardwares: </strong>
-                    Software Installation, Computer Assembly
-                </div>
-
-                <div class = "skill-row">
                     <strong>IDEs: </strong>
                     IntelliJ, Visual Studio, NetBeans, Eclipse, Android Studio, PyCharm
                 </div>
 
                 <div class = "skill-row">
-                    <strong>Databases: </strong>
-                    Microsoft SQL Server
-                </div>
-
-                <div class = "skill-row">
                     <strong>Other: </strong>
-                    Microsoft Azure
+                    Reverse Engineering, Microsoft SQL Server, Microsoft Azure, Software Installation, Computer Assembly
                 </div>
+                
             </div>
         </section>
         <!-- End of Technical Skills Section -->
@@ -178,22 +174,27 @@
             <header class="header">Certifications</header>
             <div class="certi-box">
                 <div class="title-sec">
-                    <div class = "title">
-                        <strong>Information Security Basics - Texas A&M Engineering Extension Service</strong>
-                        <em>02/21/2020</em>
-                    </div>
-                    <div class = "title">
-                        <strong>Network Assurance - Texas A&M Engineering Extension Service</strong>
-                        <em>05/18/2022</em>
-                    </div>
-                    <div class = "title">
-                        <strong>Google IT Support Professional - Coursea, online</strong>
-                        <em>08/06/2023</em>
-                    </div>
+                    
                     <div class = "title">
                         <strong>CompTIA A+</strong>
                         <em>In Progress...</em>
                     </div>
+
+                    <div class = "title">
+                        <strong>Google IT Support Professional - Coursea, online</strong>
+                        <em>08/06/2023</em>
+                    </div>
+
+                    <div class = "title">
+                        <strong>Network Assurance - Texas A&M Engineering Extension Service</strong>
+                        <em>05/18/2022</em>
+                    </div>
+
+                    <div class = "title">
+                        <strong>Information Security Basics - Texas A&M Engineering Extension Service</strong>
+                        <em>02/21/2020</em>
+                    </div>
+                    
                 </div>
                 <div class="cert-imgbox">
                     <img src="images/bachelors.jpg" alt="Image of Bachelors Degree"> 
@@ -207,26 +208,116 @@
             <header class = "header">Academic Projects</header>
             <div class="academic-infobox">
                 <div class="title">
-                    <strong>New York City College of Technology</strong>
-                    <em>Brooklyn, NY</em>
-                </div>
-                <div class="title">
-                    <div class="sub-title">Software Development .NET Framework</div>
-                    <em>09/2022 - 12/2022</em>
+                    <strong>Denial of Service Attack</strong>
                 </div>
                 <div class="academic-info">
                     <ul>
-                        <li>Collaborated in a team of two to design, develop and deploy a 
-                            software application for a car rental company, 
-                            meeting specific business requirements</li>
-                        <li>Used Microsoft SQL Server Management Studio for backend 
-                            development and used Microsoft Visual Studio for C# frontend coding</li>
-                        <li>Built application to account for server storage twenty years ahead</li>
+                        <li>Executed a SYN flood attack to a local network machine using Metasploit</li>
+                        <li>Examined and analyzed data packets being flooded into the machine using Wireshark</li>
+                        <li>Examined methods that can be used to prevent a SYN flood attack</li>
                     </ul>
                 </div>
             </div>
+
+            <div class="academic-infobox">
+                <div class="title">
+                    <strong>NMAP and Nessus Scanning Tools</strong>
+                </div>
+                <div class="academic-info">
+                    <ul>
+                        <li>Analyzed and listed protocol names, ports, operating systems, of several websites 
+                            as well as determined which one has the lowest/highest security risk using NMAP</li>
+                        <li>Analyzed and listed operating systems, web servers and the services being used 
+                            by several websites. Determined which had the highest and lowest number of 
+                            vulnerabilities, what caused the vulnerability and discussed ways to minimize the risk.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="academic-infobox">
+                <div class="title">
+                    <strong>Mobile Application Development</strong>
+                </div>
+                <div class="academic-info">
+                    <ul>
+                        <li>Developed a mobile applications created using Android Studio written in Dart.</li>
+                        <li>Created applications: Grade Calculator, Kelvin Calculator, Guess Game</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="academic-infobox">
+                <div class="title">
+                    <strong>Application Development</strong>
+                </div>
+                <div class="academic-info">
+                    <ul>
+                        <li>Created applications such as a pie chart, tic-tac-toe game and Connect4 
+                            using JavaFX and XML.</li>
+                        <li>Created a mini casino using Java that consists of minigames such as a Slot 
+                            Machine, Heads or Tails, Cee-lo, Blackjack. </li>
+                        <li>Created a local user file that holds currency information so when player 
+                            runs out of currency the game ends</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="academic-infobox">
+                <div class="title">
+                    <strong>Web Development</strong>
+                </div>
+                <div class="academic-info">
+                    <ul>
+                        <li>Created websites using HTML: Computer Repair Shop form, Restaurant Menu, Gym website</li>
+                        <li>Created websites using React.js : Business Card</li>
+                        <li>Created article website using Wix about the future of Electrical Vehicles</li>
+                        <li>Created locally hosted websites using Servlets & JSP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="academic-infobox">
+                <div class="title">
+                    <strong>Flappy Bird</strong>
+                </div>
+                <div class="academic-info">
+                    <ul>
+                        <li>Created a flappy bird game using Unity Game Engine</li>
+                        <li>Written mechanisms using C++ for jumping, spawning and deletion of pipes, and tracking score</li>
+                        <li>Created an RPG game using RPG Maker MV with features written in C#</li>
+                    </ul>
+                </div>
+            </div>
+
         </section>
         <!-- End of Academic Projects-->
+
+        <section id="courseworks" class="section">
+            <header class="header">Courseworks</header>
+            <div class="grid3">
+                <ul>
+                    <li>Software Development .NET Framework</li>
+                    <li>Object Oriented Programming & Systems Design</li>
+                    <li>Network Security Fundamentals</li>
+                    <li>Systems Analysis and Design</li>
+                    <li>Database System Fundamentals</li>
+                    <li>Operating Systems Fundamentals</li>
+                    <li>Networking Fundamentals</li>
+                    <li>Introduction to Computer Security</li>
+                    <li>Introduction to Computer Systems</li>
+                    <li>Programming Fundamentals</li>
+                    <li>Web Programming I</li>
+                    <li>Computer System Management Support</li>
+                    <li>Application Development with Database</li>
+                    <li>Dynamic Web Development: Servlet/JSP</li>
+                    <li>Game Programming</li>
+                    <li>XML Data Representation</li>
+                    <li>Multimedia & Mobile Development</li>
+                    <li>Special Topics in Information Security</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
     <footer>
@@ -236,7 +327,7 @@
                 <li>Phone: (347)776-0171</li>
             </ul>
             <ul>
-                <li><a href=""target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                <li><a href="https://www.linkedin.com/in/msl18/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
                 <li><a href="https://github.com/MHMDShohatee" target="_blank" rel="noopener noreferrer">Github</a></li>
             </ul>
         </div>
